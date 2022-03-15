@@ -7,8 +7,6 @@ import pandas as pd
 executable_path = {'executable_path': ChromeDriverManager().install()}
 browser = Browser('chrome', **executable_path, headless=False)
 
-# download_path = 'C:/Users/C:\Users\super\Documents\Personal-DESKTOP-347GCA7\Bootcamp\Git Hub\CA.EV.Naturalgas\Resources/Downloads/'
-
 # Visiting
 url = 'http://www.caiso.com/TodaysOutlook/Pages/default.aspx'
 browser.visit(url)
