@@ -1,0 +1,52 @@
+Minute_Weather
+-
+hpwren_timestamp dt pk
+air_pressure float
+air_temp float
+avg_wind_direction int
+avg_wind_speed float
+max_wind_direction int
+max_wind_speed float
+min_wind_direction int
+min_wind_speed float
+rain_accumulation int
+rain_duration int
+relative_humidity float
+
+Temperature
+- 
+hpwren_timestamp dt pk FK >- Minute_Weather.hpwren_timestamp
+air_temp float
+
+Weather_Summary
+-
+hpwren_timestamp dt pk FK >- Minute_Weather.hpwren_timestamp
+air_temp float
+avg_wind_direction int
+avg_wind_speed float
+rain_accumulation int
+relative_humidity float
+
+
+Air
+-
+hpwren_timestamp dt pk fk - Minute_Weather.hpwren_timestamp
+air_pressure float
+air_temp float
+relative_humidity float
+
+Wind
+-
+hpwren_timestamp dt pk fk - Minute_Weather.hpwren_timestamp
+avg_wind_direction int
+avg_wind_speed float
+max_wind_direction int
+max_wind_speed float
+min_wind_direction int
+min_wind_speed float
+
+Precipitation
+-
+hpwren_timestamp dt pk fk - Minute_Weather.hpwren_timestamp
+rain_accumulation int
+rain_duration int
