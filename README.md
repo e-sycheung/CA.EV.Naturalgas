@@ -19,3 +19,7 @@ Some examples of our data are:
 - *Questions We Hope to Answer:*
 How does increased use of electric vehicle impact natural gas consumption in California?
 How does time of day impact the carbon intensity of EV charging?
+
+- *Description of Data Exploration:*
+
+- *Discription of Analysis Phase:*
