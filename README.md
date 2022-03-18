@@ -3,6 +3,8 @@ Final Project - Exploring the emission impacts
 
 ## Week 1
 
+### Introduction
+
 - *Selected Topic*: For our project we will preform a data analysis on the impact of increased electric vehicle charging on California's natural gas usage.
 
 - *Reason Why Topic Was Selected:*
