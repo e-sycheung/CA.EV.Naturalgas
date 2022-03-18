@@ -18,7 +18,7 @@ How does time of day impact the carbon intensity of EV charging?
 
 ## Week 2
 
-### Project Proccess
+### Project Process
 
 - *Description of Data Exploration:*
 
