@@ -24,7 +24,7 @@ How does time of day impact the carbon intensity of EV charging?
 
 - *Description of Data Exploration:*
 
-- *Discription of Analysis Phase:*
+- *Description of Analysis Phase:*
 
 - *Description of the Communication Protocols:*
 
