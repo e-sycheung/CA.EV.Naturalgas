@@ -22,4 +22,21 @@ How does time of day impact the carbon intensity of EV charging?
 
 - *Discription of Analysis Phase:*
 
+- *Description of the Communication Protocols:*
+
 - *Outline of Project:*
+
+
+### Machine Learning Model
+
+- *Description of Preliminary Data Preprocessing:*
+ 
+- *Description of Preliminary Feature:*
+
+- *Description of Training:*
+ 
+- *Explanation of Model Choice:*
+
+limitations
+
+benefits
