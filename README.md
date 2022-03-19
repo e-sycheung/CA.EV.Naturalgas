@@ -11,7 +11,7 @@ California has set a goal of getting 5 million electric vehicles (EVs) on the ro
 
 ### *Description of Source of Data:*
 
-California has been at the forefront of renewable energy in the United States and has made significant progress. Most of the energy-related data is collected by California Energy Commission (CEC) in the form of raw data and reports. Most of the data we are looking for is located here and related energy agencies. 
+California has been at the forefront of renewable energy in the United States and has made significant progress. Most of the energy-related data is collected by [California Energy Commission (CEC)](https://www.energy.ca.gov/) in the form of raw data and reports. Most of the data we are looking for is located here and related energy agencies. 
 
 ### *Questions We Hope to Answer:*
 - How does increased use of electric vehicle impact natural gas consumption in California?
