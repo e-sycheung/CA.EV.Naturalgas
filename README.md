@@ -14,13 +14,15 @@ California has set a goal of getting 5 million electric vehicles (EVs) on the ro
 California has been at the forefront of renewable energy in the United States and has made significant progress. Most of the energy-related data is collected by California Energy Commission (CEC) in the form of raw data and reports. Most of the data we are looking for is located here and related energy agencies. 
 
 ### *Questions We Hope to Answer:*
-How does increased use of electric vehicle impact natural gas consumption in California?
-How does time of day impact the carbon intensity of EV charging?
+- How does increased use of electric vehicle impact natural gas consumption in California?
+- How does time of day impact the carbon intensity of EV charging?
 
 ## Our Process
 
 
 ### *Description of Data Exploration:*
+
+Our search process for the data was difficult at first due to data requiring payment to access. So, we did a lot of research on our topic to gain a better understanding and find reliable sources that can offer the data that we need. After our research, we found a great deal of data in the supply and demand section of [California ISO]( https://www.caiso.com/todaysoutlook/Pages/index.html). Next, we gathered data from [Sun Country Highway]( https://suncountryhighway.ca/ev-charge-times/) charge times using web scraping.
 
 ### *Description of Analysis Phase:*
 
