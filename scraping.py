@@ -19,7 +19,9 @@ html = browser.html
 h_soup = soup(html, 'html.parser')
 
 # Select Calender
-
+csv_date = browser.find_by_tag('input')[1]
+csv_date.click()
+csv_date.fill("input" '03/02/2022')
 # Select download botton and download CSV
 csv_data = browser.find_by_tag('button')[1]
 csv_data.click()
