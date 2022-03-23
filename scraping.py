@@ -14,9 +14,6 @@ browser.visit(url)
 # Delay
 browser.is_element_present_by_css('div.list_text', wait_time=1)
 
-html = browser.html
-news_soup = soup(html, 'html.parser')
-
 # Parse
 html = browser.html
 h_soup = soup(html, 'html.parser')
