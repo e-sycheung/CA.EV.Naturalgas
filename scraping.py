@@ -26,3 +26,4 @@ csv_date.fill('03/02/2022')
 # Select download botton and download CSV
 csv_data = browser.find_by_tag('button')[1]
 csv_data.click()
+csv_data.find_by_xpath('//*[@id="downloadDemandCSV"]')
