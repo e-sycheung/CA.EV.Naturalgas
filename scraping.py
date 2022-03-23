@@ -24,5 +24,3 @@ h_soup = soup(html, 'html.parser')
 # Select download botton and download CSV
 csv_data = browser.find_by_tag('button')[1]
 csv_data.click()
-#select_file = browser.find_by_class('dropdown-item')[1]
-#dwn_file = h_soup.find('a').get('href')
