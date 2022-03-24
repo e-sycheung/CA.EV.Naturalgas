@@ -15,19 +15,24 @@ browser.visit(url)
 html_data = requests.get(url=url) \
     .content
 
-# Delay
-browser.is_element_present_by_css('div.list_text', wait_time=1)
+for d in range(2):
+    # Delay
+    browser.is_element_present_by_css('div.list_text', wait_time=1)
 
-# Parse
-html = browser.html
-h_soup = soup(html, 'html.parser')
+    # Parse
+    html = browser.html
+    h_soup = soup(html, 'html.parser')
 
-# Select Calender
-csv_date = browser.find_by_tag('input')[1]
-csv_date.click()
-csv_date.fill('03/02/2022')
+    # Select Calender
+    csv_date = browser.find_by_tag('input')[1]
+    csv_date.click()
+    csv_date.fill('03/02/2022')
 
-# Select download botton and download CSV
-csv_data = browser.find_by_tag('button')[1]
-csv_data.click()
-csv_data.find_by_xpath('//*[@id="downloadDemandCSV"]').click()
+    # Select download botton and download CSV
+    csv_data = browser.find_by_tag('button')[1]
+    csv_data.click()
+    csv_data.find_by_xpath('//*[@id="downloadDemandCSV"]').click()
+
+
+# Quit the browser
+# browser.quit()
