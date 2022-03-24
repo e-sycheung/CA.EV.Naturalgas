@@ -1,8 +1,10 @@
 # Import Splinter and BeautifulSoup
+from importlib.resources import path
 from splinter import Browser
 from bs4 import BeautifulSoup as soup
 from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
+import requests
 
 executable_path = {'executable_path': ChromeDriverManager().install()}
 browser = Browser('chrome', **executable_path, headless=False)
@@ -10,6 +12,8 @@ browser = Browser('chrome', **executable_path, headless=False)
 # Visiting
 url = 'http://www.caiso.com/TodaysOutlook/Pages/default.aspx'
 browser.visit(url)
+html_data = requests.get(url=url) \
+    .content
 
 # Delay
 browser.is_element_present_by_css('div.list_text', wait_time=1)
@@ -26,4 +30,4 @@ csv_date.fill('03/02/2022')
 # Select download botton and download CSV
 csv_data = browser.find_by_tag('button')[1]
 csv_data.click()
-csv_data.find_by_xpath('//*[@id="downloadDemandCSV"]')
+csv_data.find_by_xpath('//*[@id="downloadDemandCSV"]').click()
