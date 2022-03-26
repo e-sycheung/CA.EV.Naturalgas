@@ -1,0 +1,262 @@
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2018_jan"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2018_feb"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2018_march"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2018_april"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2018_may"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2018_june"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2018_july"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2018_aug"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2018_sept"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2018_oct"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2018_nov"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2018_dec"
+
+
+CREATE TABLE "2018_jan" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" int,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2018_feb" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" int,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2018_march" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" int,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2018_april" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" int,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2018_may" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" int,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2018_june" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" int,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2018_july" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" int,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2018_aug" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" int,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2018_sept" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" int,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2018_oct" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" int,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2018_nov" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" int,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2018_dec" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" int,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);

@@ -1,0 +1,263 @@
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2020_jan"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2020_feb"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2020_march"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2020_april"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2020_may"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2020_june"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2020_july"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2020_aug"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2020_sept"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2020_oct"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2020_nov"
+
+UNION ALL
+
+SELECT "INTERVALSTARTTIME_GMT", "INTERVALENDTIME_GMT", "MW", "OPR_HR"
+FROM "2020_dec"
+
+
+
+CREATE TABLE "2020_jan" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" int,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2020_feb" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" int,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2020_march" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" decimal,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2020_april" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" decimal,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2020_may" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" decimal,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2020_june" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" decimal,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2020_july" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" decimal,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2020_aug" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" decimal,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2020_sept" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" decimal,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2020_oct" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" decimal,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2020_nov" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" decimal,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
+
+CREATE TABLE "2020_dec" (
+    "INTERVALSTARTTIME_GMT" timestamp,
+    "INTERVALENDTIME_GMT" timestamp,
+    "LOAD_TYPE" int,
+    "OPR_DT" date,
+	"OPR_HR" int,
+    "OPR_INTERVAL" int,
+    "MARKET_RUN_ID" VARCHAR,
+    "TAC_AREA_NAME" VARCHAR,
+    "LABEL" VARCHAR,
+    "XML_DATA_ITEM" VARCHAR,
+    "POS" decimal,
+    "MW" decimal,
+    "EXECUTION_TYPE" VARCHAR,
+	"GROUP" int
+);
