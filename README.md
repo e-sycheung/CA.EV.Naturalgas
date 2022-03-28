@@ -38,8 +38,11 @@ The Presention will be done through [Google Slides](https://docs.google.com/pres
 - Questions?
 - Data Source
 - Data Exploration
-- Analysis Phase
+- Data Scraping
 - Extra Info
+- Analysis Phase
+- Machine Learning Model
+- Results
 - Recommendation for Future Analysis
 - What we Would Have Done Differently
 
