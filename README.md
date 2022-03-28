@@ -36,13 +36,13 @@ Communication and open dialogue have been a key component in this group project.
 ## Machine Learning Model
 
 ### *Description of Preliminary Data Preprocessing:*
+We dropped the columns for supply so there were no other supply inputs except for demand. We split the data into training and testing and seperated the inputs from the input.
  
 ### *Description of Preliminary Feature:*
 
+
 ### *Description of Training:*
+This training predicts supply based on the time of day and day of the year and demand. It back propogates error using gradient descent.
  
 ### *Explanation of Model Choice:*
-
-limitations
-
-benefits
+We used a sequential model with a single output neuron. The limitation is since it is a sequential model it does not take into account data from earlier that day, for exmaple a large peak. A benefit is that it is simple and can be trained quickly.
