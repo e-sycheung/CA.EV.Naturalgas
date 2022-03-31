@@ -58,4 +58,7 @@ The Presention will be done through [Google Slides](https://docs.google.com/pres
 
 limitations
 
+<img width="408" alt="Screen Shot 2022-03-31 at 4 52 18 PM" src="https://user-images.githubusercontent.com/92963227/161167936-7e899377-c352-47f1-82a4-ae5b0797df0f.png">
+
+
 benefits
