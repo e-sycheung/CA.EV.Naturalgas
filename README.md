@@ -33,18 +33,6 @@ Communication and open dialogue have been a key component in this group project.
 ### *Project Outline:*
 
 The Presention will be done through [Google Slides](https://docs.google.com/presentation/d/1zOBPyaSprh2AsAN8pwAGuNuXHJgk6bz7/edit?usp=sharing&ouid=109076473530108295539&rtpof=true&sd=true)
-- Title
-- About the Topic
-- Questions?
-- Data Source
-- Data Exploration
-- Data Scraping
-- Extra Info
-- Analysis Phase
-- Machine Learning Model
-- Results
-- Recommendation for Future Analysis
-- What we Would Have Done Differently
 
 ## Machine Learning Model
 
