@@ -22,13 +22,7 @@ California has been at the forefront of renewable energy in the United States an
 ### *Description of Data Exploration:*
 Our search process for the data was difficult at first due to data requiring payment to access. So, we did a lot of research on our topic to gain a better understanding and find reliable sources that can offer the data that we need. After our research, we found a great deal of data in the supply and demand section of [California ISO]( https://www.caiso.com/todaysoutlook/Pages/index.html). Next, we gathered data from [Sun Country Highway]( https://suncountryhighway.ca/ev-charge-times/) charge times using web scraping.
 
-### *Description of Analysis Phase:*
 
-### *Description of the Communication Protocols:*
-Communication and open dialogue have been a key component in this group project. There are several prongs of communication that we have implemented. 
-1. Day to day: Slack or gmail for communications, quick questions, ideas, and suggestions.
-2. Meets outside of Class: Google Calendar/Hangouts and Zoom. 
-3. Resources and Code Collaboration: GitHub and GoogleDrive.
 
 ### *Project Outline:*
 
