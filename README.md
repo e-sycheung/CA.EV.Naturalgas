@@ -25,7 +25,9 @@ Our search process for the data was difficult at first due to data requiring pay
 
 ### *Project Outline:*
 
-The Presention will be done through Canva and formatted to a pdf that is available in our main branch. 
+The Presention slides are done through Canva and formatted to a pdf that is available in our main branch. Please use link to see presentation notes.
+https://www.canva.com/design/DAE9KiRg2E8/rpZcrZ1cfZsLencKyDMamA/view?utm_content=DAE9KiRg2E8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 
 ## Machine Learning Model
 
