@@ -30,6 +30,11 @@ https://www.canva.com/design/DAE9KiRg2E8/rpZcrZ1cfZsLencKyDMamA/view?utm_content
 ## Machine Learning Model 
 
 ### *Description of Preliminary Data Preprocessing:*
+
+Before entering our data into our model, we had to do several things for pre-processing.
+
+First, we dropped several columns that were not relevant to our machine learning analysis. Next, we added into our data a column that represented EV charging in demand for the three years we got our data, for specific five minute intervals for the most common charging time, from 10pm to 6am. Then, we had to create a function to turn all of our date values into a relative value indicating day of year so we could make it into an integer and feed it into our model. Then we did the same thing for hours and minutes, splitting them up and putting them into integer values, for example for hours 1-24.  Next, I created a graph with all of our variables to see if there were any outliers or anything wrong with the data. The first time we ran our machine learning model, we got a very low accuracy so we created a pair plot function to see where improvements could be made to our pre processing. I also made a heatmap to look at the strength of the correlations between our variables. To deal with the NaN values that we had, we used SimpleImputer to replace the values with averages instead of zeros or dropping the column altogether. 
+
  
 ### *Description of Preliminary Feature:*
 
@@ -37,9 +42,8 @@ https://www.canva.com/design/DAE9KiRg2E8/rpZcrZ1cfZsLencKyDMamA/view?utm_content
  
 ### *Explanation of Model Choice:*
 
-limitations
+We chose a multivariate linear regression because a MLR is a type of supervised machine learning used to understand 
+the relationship between two or more independent variables and one dependent variable. We need to predict continuous variable, which linear does and deal with our multiple features. For us, the independent variables were our total demand sum variables and our time variables. The dependent variable was natural gas. By using a  multivariate linear regression, we could understand the strength of the relationship between our independent and dependent variables and we could predict the value of our dependant variable (natural gas) at a certain level for a set of independent variables.
+
 
 <img width="408" alt="Screen Shot 2022-03-31 at 4 52 18 PM" src="https://user-images.githubusercontent.com/92963227/161167936-7e899377-c352-47f1-82a4-ae5b0797df0f.png">
-
-
-benefits
