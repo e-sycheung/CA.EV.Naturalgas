@@ -47,5 +47,9 @@ Our feature in our model was natural gas and every column except natural gas.
 We chose a multivariate linear regression because a MLR is a type of supervised machine learning used to understand 
 the relationship between two or more independent variables and one dependent variable. We need to predict continuous variable, which linear does and deal with our multiple features. For us, the independent variables were our total demand sum variables and our time variables. The dependent variable was natural gas. By using a  multivariate linear regression, we could understand the strength of the relationship between our independent and dependent variables and we could predict the value of our dependant variable (natural gas) at a certain level for a set of independent variables.
 
+### *Analysis:*
+After running our model we found a 0.12% increase in natural gas usage that comes along with 5 million more EV's on the road charged between 10pm and 6am in 2030. The below graph shows our predicted natural gas in 2030 vs. a year of natural gas usage in 2020.
 
-<img width="408" alt="Screen Shot 2022-03-31 at 4 52 18 PM" src="https://user-images.githubusercontent.com/92963227/161167936-7e899377-c352-47f1-82a4-ae5b0797df0f.png">
+<img width="437" alt="Screen Shot 2022-04-10 at 10 33 41 PM" src="https://user-images.githubusercontent.com/92963227/162671369-0d131ffe-1b1d-464b-91a4-2690797a62b0.png">
+
+
