@@ -52,4 +52,10 @@ After running our model we found a 0.12% increase in natural gas usage that come
 
 <img width="437" alt="Screen Shot 2022-04-10 at 10 33 41 PM" src="https://user-images.githubusercontent.com/92963227/162671369-0d131ffe-1b1d-464b-91a4-2690797a62b0.png">
 
+### *Visualization:*
+https://public.tableau.com/app/profile/elissa.cheung.cheung/viz/NGTable/Dashboard1?publish=yes We showed two graph. The graph on the left shows that over the years we have actually dropped in the use of natural gas as an overall energy source. In the graph on the right demonstrates that the according to the ML predicitions they trend will continue in this manner and only slightly increase with the large demands of EVs.
+
+### *limitations:*
+We have a great deal of limitations that we encountered. First being the acutally data. The scraped value of supply off of CAISO experienced some outages and system failure which caused some of the data points to be rather incomplete. There is no really method of acutally tracking the EV usages and the impact on the grid, which definitely presented some challenges in creating the ML and conducting analysis.  
+
 
