@@ -39,7 +39,8 @@ First, we dropped several columns that were not relevant to our machine learning
 ### *Description of Preliminary Feature:*
 
 ### *Description of Training:*
- 
+ We split our data into training and testing. We retrieved the independent and dependent variables and since we have only one feature and fed them into our linear regression model. We use scikit learn to import the linear regression model. We fit the model on the training data and predict the values for the testing data. We use R2 score to measure the accuracy of our model, which ended up being around 56%. 
+
 ### *Explanation of Model Choice:*
 
 We chose a multivariate linear regression because a MLR is a type of supervised machine learning used to understand 
